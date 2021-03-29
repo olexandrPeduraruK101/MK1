@@ -7,15 +7,15 @@ int main() {
 	float S; float p;
 	float procent; float profit;
 	setlocale(LC_CTYPE, "ru");
-	printf("Введи скільки отримає працівник без податку: ");
+	printf("Р’РІРµРґРё СЃРє1Р»СЊРєРё РѕС‚СЂРёРјР°С” РїСЂР°С†1РІРЅРёРє Р±РµР· РїРѕРґР°С‚РєСѓ: ");
 		scanf("%f", &S);
-	printf("Введи процент податку: ");
+	printf("Р’РІРµРґРё РїСЂРѕС†РµРЅС‚ РїРѕРґР°С‚РєСѓ: ");
 		scanf("%f", &p);
 
 	procent = S * p/100;
 	profit = S - procent;
 
-	printf("\n\tчистий прибуток =  %.2f грн\n", profit);
+	printf("\n\tС‡РёСЃС‚РёР№ РїСЂРёР±СѓС‚РѕРє =  %.2f РіСЂРЅ\n", profit);
 	
 
 
