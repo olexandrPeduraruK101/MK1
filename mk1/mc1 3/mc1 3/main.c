@@ -1,23 +1,23 @@
 #include <stdio.h>
 #include <locale.h>
-#include <math.h>
+#include <math.h>//підключення бібліотек
 
-int main() {
+int main() {//запуск програми
 
 	float S; float p;
-	float procent; float profit;
-	setlocale(LC_CTYPE, "ru");
-	printf("Введи ск1льки отримає прац1вник без податку: ");
-		scanf("%f", &S);
-	printf("Введи процент податку: ");
-		scanf("%f", &p);
+	float procent; float profit;// введення змінних
+	setlocale(LC_CTYPE, "ru");//команда для написання кирилицею
+	printf("Введи ск1льки отримає прац1вник без податку: ");//ввиведення даних
+		scanf("%f", &S);//введення даних
+	printf("Введи процент податку: ");//ввиведення даних
+		scanf("%f", &p);//введення даних
 
-	procent = S * p/100;
-	profit = S - procent;
+	procent = S * p/100; //цією формолую ми бачимо скільки коштує цей процент від зарплатні
+	profit = S - procent;//А тут ми віднімаємо той процент для того щоб дізнатися чистий дохід робочого
 
-	printf("\n\tчистий прибуток =  %.2f грн\n", profit);
+	printf("\n\tчистий прибуток =  %.2f грн\n", profit);//ввиведення даних
 	
 
 
-	return 0;
+	return 0; //кінець програми
 }
