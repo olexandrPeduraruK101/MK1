@@ -8,13 +8,13 @@ int main() {
 	float gipotenuza; float s;
 
 	setlocale(LC_CTYPE, "ru");
-	printf("Вед1ть значення першого катета: ");
+	printf("Р’РµРґ1С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ РїРµСЂС€РѕРіРѕ РєР°С‚РµС‚Р°: ");
 		scanf("%d", &katet1);
-		printf("Вед1ть значення другого катета: ");
+		printf("Р’РµРґ1С‚СЊ Р·РЅР°С‡РµРЅРЅСЏ РґСЂСѓРіРѕРіРѕ РєР°С‚РµС‚Р°: ");
 		scanf("%d", &katet2);
 		gipotenuza = (float)sqrt(pow(katet1, 2) + pow(katet2, 2));
 		s = (float) 0.5 * katet1 * katet2;
-		printf("\n\t гипотенуза \t площа\n");
+		printf("\n\t РіРёРїРѕС‚РµРЅСѓР·Р° \t РїР»РѕС‰Р°\n");
 		printf("\n\t %.3f \t         %.3f \n", gipotenuza, s);
 		
 	return 0;
